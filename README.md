@@ -79,8 +79,12 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Uzair272&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080c15&title_color=00e5ff&icon_color=00e5ff&text_color=94a3b8" alt="Uzair's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Uzair272&layout=compact&theme=tokyonight&hide_border=true&bg_color=080c15&title_color=00e5ff&text_color=94a3b8" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Uzair272&theme=tokyonight" alt="Uzair's GitHub Profile Details" width="54%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Uzair272&theme=tokyonight" alt="Top Repos Per Language" width="44%" />
+</div>
+
+<div align="center" style="margin-top: 10px;">
+  <img src="https://streak-stats.demolab.com/?user=Uzair272&theme=tokyonight&hide_border=true" alt="Uzair's GitHub Streak" width="98%" />
 </div>
 
 ---
