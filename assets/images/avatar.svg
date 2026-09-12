@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cyber-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="avatar-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Base Circle -->
+  <rect width="320" height="320" rx="64" fill="url(#avatar-bg)"/>
+  
+  <!-- Subtle Background Grid -->
+  <path d="M40 0 V320 M80 0 V320 M120 0 V320 M160 0 V320 M200 0 V320 M240 0 V320 M280 0 V320" stroke="#334155" stroke-opacity="0.15" stroke-width="1"/>
+  <path d="M0 40 H320 M0 80 H320 M0 120 H320 M0 160 H320 M0 200 H320 M0 240 H320 M0 280 H320" stroke="#334155" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Halo Ring -->
+  <circle cx="160" cy="140" r="85" fill="none" stroke="url(#cyber-accent)" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.6"/>
+
+  <!-- Developer Silhouette / Tech Iconography -->
+  <!-- Shoulders / Torso -->
+  <path d="M70 290 C70 230 110 215 160 215 C210 215 250 230 250 290" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M105 290 L160 235 L215 290" fill="none" stroke="url(#cyber-accent)" stroke-width="2" opacity="0.7"/>
+
+  <!-- Head / Face -->
+  <ellipse cx="160" cy="142" rx="46" ry="54" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+
+  <!-- Glasses / Modern HUD Interface on face -->
+  <rect x="124" y="132" width="30" height="18" rx="5" fill="#0369a1" fill-opacity="0.3" stroke="#00e5ff" stroke-width="2"/>
+  <rect x="166" y="132" width="30" height="18" rx="5" fill="#0369a1" fill-opacity="0.3" stroke="#00e5ff" stroke-width="2"/>
+  <line x1="154" y1="141" x2="166" y2="141" stroke="#00e5ff" stroke-width="2"/>
+  <circle cx="139" cy="141" r="3" fill="#38bdf8"/>
+  <circle cx="181" cy="141" r="3" fill="#38bdf8"/>
+
+  <!-- Hair / Styling -->
+  <path d="M112 135 C110 100 130 85 160 85 C190 85 210 100 208 135 C200 100 185 95 160 95 C135 95 120 100 112 135 Z" fill="#0f172a"/>
+
+  <!-- Coding Badges around silhouette -->
+  <g transform="translate(42, 60)">
+    <rect width="44" height="24" rx="6" fill="#0f172a" stroke="#00e5ff" stroke-width="1.2"/>
+    <text x="22" y="16" fill="#00e5ff" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <g transform="translate(234, 60)">
+    <rect width="44" height="24" rx="6" fill="#0f172a" stroke="#6366f1" stroke-width="1.2"/>
+    <text x="22" y="16" fill="#a5b4fc" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">AI</text>
+  </g>
+
+  <g transform="translate(138, 275)">
+    <rect width="44" height="20" rx="10" fill="#00e5ff" filter="url(#avatar-glow)" opacity="0.3"/>
+    <circle cx="160" cy="285" r="4" fill="#00e5ff"/>
+  </g>
+</svg>

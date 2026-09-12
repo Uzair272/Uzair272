@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uzair272.github.io/uzair272/sitemap.xml
