@@ -3,7 +3,7 @@
 # Hi, I'm Muhammad Uzair Ajmal 👋
 ### Full Stack Developer &amp; AI Software Engineer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-uzair272.github.io%2Fuzair272-00e5ff?style=for-the-badge&logo=googlechrome&logoColor=black)](https://uzair272.github.io/uzair272)
+[![Portfolio](https://img.shields.io/badge/Portfolio-uzair272.github.io%2Fuzair272-00e5ff?style=for-the-badge&logo=googlechrome&logoColor=black)](https://Uzair272.github.io/uzair272)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-muhammaduzairajmal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammaduzairajmal)
 [![GitHub](https://img.shields.io/badge/GitHub-Uzair272-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Uzair272)
 [![Email](https://img.shields.io/badge/Email-uzairfts272%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzairfts272@gmail.com)
